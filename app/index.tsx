@@ -13,12 +13,12 @@ const welcome_image = Image.resolveAssetSource(welcomeImage).uri;
 
 const Page = () => {
   const openLink = () => {
-    Linking.openURL("www.google.com");
+    Linking.openURL("/");
   };
   return (
     <View style={styles.container}>
       <Image
-        source={{ uri: welcome_image }} // Burada `welcome_image` kullanılmalı
+        source={{ uri: welcome_image }}
         style={styles.welcome}
       />
       <Text style={styles.headline}>Welcome to Chimping</Text>

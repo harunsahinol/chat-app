@@ -60,7 +60,7 @@ const Page = () => {
     setTimeout(() => {
       setLoading(false);
       router.push(`/verify/${userName}`); // Ensure the path matches your routing setup
-    }, 2000);
+    }, 500);
   };
 
   return (
